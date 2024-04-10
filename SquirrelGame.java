@@ -23,7 +23,7 @@ public class SquirrelGame
         {
             return Math.asin(((tay - chy) / distance));
         }
-    };
+    }
 
     static class target
     {
@@ -36,7 +36,7 @@ public class SquirrelGame
         {
             return Math.sin(theta);
         }
-    };
+    }
 
 
     public static void main(String[] args) throws Exception 
