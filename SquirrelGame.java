@@ -54,7 +54,7 @@ public class SquirrelGame
 
             while (distance > 1)
             {
-                double tatheta = rn.nextDouble(89) + 1;
+                double tatheta = rn.nextDouble(360);
                 distance = Math.sqrt((Math.pow((tax - chx), 2) + Math.pow((tay - chy), 2)));
                 chtheta = chase.theta(chy, tay, distance);
                 chx += chase.xcord(chtheta);
